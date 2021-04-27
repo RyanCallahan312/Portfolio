@@ -19,15 +19,9 @@
             "@images/*": [
                 "src/images/*"
             ],
-            "@styles/*": [
-                "src/styles/*"
-            ],
             "@types": [
                 "src/types"
             ],
-            "@constants/*": [
-                "src/constants/*"
-            ]
         }
     },
     "include": [
