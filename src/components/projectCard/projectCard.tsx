@@ -3,13 +3,13 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 interface Icons {
 	allFile: {
-		nodes: [{ publicURL: string}];
+		nodes: [{ publicURL: string }];
 	};
 }
 
 const ProjectCard: React.FC = () => {
 	const icons: Icons = useStaticQuery(graphql`
-	query myquery {
+	{
 		allFile(
 			filter: {relativeDirectory: {eq: "icons"}, name: {eq: "eye-white"}}
 		) {
@@ -25,10 +25,8 @@ const ProjectCard: React.FC = () => {
 			<a>
 				<img
 					width='32px'
-					src={
-						icons.allFile.nodes[0].publicURL
-					}
-					style={{backgroundColor: "#000000"}}
+					src={icons.allFile.nodes[0].publicURL}
+					style={{ backgroundColor: '#000000' }}
 				/>
 			</a>
 		</div>

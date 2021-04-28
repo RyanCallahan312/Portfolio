@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 const Projects: React.FC = () => {
-	return <p>index page</p>;
+	return <a href="/projects">to projects</a>;
 };
 
 export default Projects;

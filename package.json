@@ -7,7 +7,6 @@
 	"dependencies": {
 		"gatsby": "^3.4.0",
 		"gatsby-plugin-gatsby-cloud": "^2.1.0",
-		"gatsby-plugin-google-fonts-v2": "0.0.6",
 		"gatsby-plugin-image": "^1.1.2",
 		"gatsby-plugin-manifest": "^3.1.0",
 		"gatsby-plugin-offline": "^4.1.0",
@@ -18,14 +17,12 @@
 		"prop-types": "^15.7.2",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"react-helmet": "^6.1.0",
-		"react-responsive": "^8.2.0"
+		"react-helmet": "^6.1.0"
 	},
 	"devDependencies": {
 		"@types/react": "^17.0.4",
 		"@types/react-dom": "^17.0.3",
 		"@types/react-helmet": "^6.1.0",
-		"@types/react-responsive": "^8.0.2",
 		"gatsby-plugin-tsconfig-paths": "^1.0.3",
 		"prettier": "2.2.1"
 	},

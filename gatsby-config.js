@@ -27,21 +27,7 @@ module.exports = {
 				background_color: `#663399`,
 				theme_color: `#663399`,
 				display: `minimal-ui`,
-				icon: `src/images/DevRyanLogo.svg`, // This path is relative to the root of the site.
-			},
-		},
-		{
-			resolve: `gatsby-plugin-google-fonts-v2`,
-			options: {
-				verbose: true,
-				fonts: [
-					{
-						family: 'Roboto',
-					},
-					{
-						family: 'Nunito Sans'
-					},
-				],
+				icon: `src/images/icons/eye-white.svg`, // This path is relative to the root of the site.
 			},
 		},
 		`gatsby-plugin-tsconfig-paths`,
