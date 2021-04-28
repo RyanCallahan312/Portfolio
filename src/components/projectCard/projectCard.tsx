@@ -9,7 +9,7 @@ interface Icons {
 
 const ProjectCard: React.FC = () => {
 	const icons: Icons = useStaticQuery(graphql`
-	{
+	query myquery {
 		allFile(
 			filter: {relativeDirectory: {eq: "icons"}, name: {eq: "eye-white"}}
 		) {
@@ -28,6 +28,7 @@ const ProjectCard: React.FC = () => {
 					src={
 						icons.allFile.nodes[0].publicURL
 					}
+					style={{backgroundColor: "#000000"}}
 				/>
 			</a>
 		</div>
