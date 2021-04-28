@@ -1,25 +1,16 @@
 import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 
 interface Icons {
 	allFile: {
 		nodes: [{ publicURL: string }];
 	};
 }
+interface Props {
+	icons: Icons;
+}
 
-const ProjectCard: React.FC = () => {
-	const icons: Icons = useStaticQuery(graphql`
-	{
-		allFile(
-			filter: {relativeDirectory: {eq: "icons"}, name: {eq: "eye-white"}}
-		) {
-			nodes {
-				publicURL
-			}
-		}
-	}
-	`);
-
+const ProjectCard: React.FC<Props> = (props: Props) => {
+	const { icons } = props;
 	return (
 		<div>
 			<a>
