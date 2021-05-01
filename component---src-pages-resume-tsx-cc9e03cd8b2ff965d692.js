@@ -1,0 +1,2 @@
+(self.webpackChunkdev_ryan_portfolio=self.webpackChunkdev_ryan_portfolio||[]).push([[753],{5225:function(e,t,r){"use strict";r.r(t);var n=r(7294),l=r(3609),u=r(8362);t.default=function(){return n.createElement(l.Z,null,n.createElement(u.Z,{title:"Resume"}),n.createElement("iframe",{src:"/resume.pdf",width:"50%",height:"100%"}))}}}]);
+//# sourceMappingURL=component---src-pages-resume-tsx-cc9e03cd8b2ff965d692.js.map
