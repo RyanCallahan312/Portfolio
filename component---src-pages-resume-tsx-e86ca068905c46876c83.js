@@ -1,2 +1,0 @@
-(self.webpackChunkdev_ryan_portfolio=self.webpackChunkdev_ryan_portfolio||[]).push([[753],{5225:function(e,t,l){"use strict";l.r(t);var a=l(7294),r=l(5444),n=l(9285),u=l(3609),i=l(8362);t.default=function(){var e=(0,r.useStaticQuery)("4018534294");return a.createElement(u.Z,null,a.createElement(i.Z,{title:"Resume"}),a.createElement(n.G,{image:(0,n.d)(e.allFile.nodes[0].childImageSharp),style:{width:"50%"},alt:"my resume"}))}}}]);
-//# sourceMappingURL=component---src-pages-resume-tsx-e86ca068905c46876c83.js.map
